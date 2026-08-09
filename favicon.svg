@@ -1,8 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
-  <!-- Background -->
-  <rect width="500" height="500" fill="#0d0d1a"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="120 110 260 280">
+  <!-- No background - transparent -->
 
-  <!-- Outer Eye Shape - recentered and scaled to fit square -->
+  <!-- Outer Eye Shape -->
   <path d="M 25 250 C 150 60 210 50 250 50 C 290 50 350 60 475 250 C 350 440 290 450 250 450 C 210 450 150 440 25 250 Z"
         fill="#050014" stroke="#c4a35a" stroke-width="14" stroke-linejoin="round"/>
 
