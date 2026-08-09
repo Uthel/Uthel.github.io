@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="100%" height="100%">
+  <!-- Outer Eye Shape -->
+  <path d="M 100 300 C 300 50 450 40 500 40 C 550 40 700 50 900 300 C 700 550 550 560 500 560 C 450 560 300 550 100 300 Z" 
+        fill="#050014" stroke="#c4a35a" stroke-width="24" stroke-linejoin="round" />
+
+  <!-- Iris: Outer Ring -->
+  <circle cx="500" cy="300" r="190" fill="none" stroke="#c4a35a" stroke-width="10" />
+
+  <!-- Aperture: 8 Spiraling Sawblade Blades -->
+  <g transform="translate(500, 300)">
+    <polygon points="0,-35 30,-165 160,-195 130,-130 20,-50" fill="#c4a35a" stroke="#c4a35a" stroke-width="2" stroke-linejoin="round" />
+    <polygon points="0,-35 30,-165 160,-195 130,-130 20,-50" fill="#c4a35a" stroke="#c4a35a" stroke-width="2" stroke-linejoin="round" transform="rotate(45)" />
+    <polygon points="0,-35 30,-165 160,-195 130,-130 20,-50" fill="#c4a35a" stroke="#c4a35a" stroke-width="2" stroke-linejoin="round" transform="rotate(90)" />
+    <polygon points="0,-35 30,-165 160,-195 130,-130 20,-50" fill="#c4a35a" stroke="#c4a35a" stroke-width="2" stroke-linejoin="round" transform="rotate(135)" />
+    <polygon points="0,-35 30,-165 160,-195 130,-130 20,-50" fill="#c4a35a" stroke="#c4a35a" stroke-width="2" stroke-linejoin="round" transform="rotate(180)" />
+    <polygon points="0,-35 30,-165 160,-195 130,-130 20,-50" fill="#c4a35a" stroke="#c4a35a" stroke-width="2" stroke-linejoin="round" transform="rotate(225)" />
+    <polygon points="0,-35 30,-165 160,-195 130,-130 20,-50" fill="#c4a35a" stroke="#c4a35a" stroke-width="2" stroke-linejoin="round" transform="rotate(270)" />
+    <polygon points="0,-35 30,-165 160,-195 130,-130 20,-50" fill="#c4a35a" stroke="#c4a35a" stroke-width="2" stroke-linejoin="round" transform="rotate(315)" />
+
+    <!-- Inner dark cutout for the aperture hole -->
+    <circle cx="0" cy="0" r="75" fill="#050014" />
+  </g>
+
+  <!-- Adjusted Traditional Keyhole -->
+  <!-- Flat bottom, straight neck, classic flared skeleton key shape -->
+  <g transform="translate(500, 285)">
+    <path d="M -30 0 A 20 20 0 1 1 30 0 L 20 20 L 30 45 L -30 45 L -20 20 Z" 
+          fill="#050014" stroke="#c4a35a" stroke-width="12" stroke-linejoin="round" />
+  </g>
+</svg>
