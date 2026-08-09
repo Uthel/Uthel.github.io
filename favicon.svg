@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500">
+  <!-- Background -->
+  <rect width="500" height="500" fill="#0d0d1a"/>
+
+  <!-- Outer Eye Shape - recentered and scaled to fit square -->
+  <path d="M 25 250 C 150 60 210 50 250 50 C 290 50 350 60 475 250 C 350 440 290 450 250 450 C 210 450 150 440 25 250 Z"
+        fill="#050014" stroke="#c4a35a" stroke-width="14" stroke-linejoin="round"/>
+
+  <!-- Iris Ring -->
+  <circle cx="250" cy="250" r="130" fill="none" stroke="#c4a35a" stroke-width="7"/>
+
+  <!-- 8 Sawblade Blades -->
+  <g transform="translate(250, 250)">
+    <polygon points="0,-24 20,-113 109,-133 89,-89 14,-34" fill="#c4a35a" stroke="#c4a35a" stroke-width="1" stroke-linejoin="round"/>
+    <polygon points="0,-24 20,-113 109,-133 89,-89 14,-34" fill="#c4a35a" stroke="#c4a35a" stroke-width="1" stroke-linejoin="round" transform="rotate(45)"/>
+    <polygon points="0,-24 20,-113 109,-133 89,-89 14,-34" fill="#c4a35a" stroke="#c4a35a" stroke-width="1" stroke-linejoin="round" transform="rotate(90)"/>
+    <polygon points="0,-24 20,-113 109,-133 89,-89 14,-34" fill="#c4a35a" stroke="#c4a35a" stroke-width="1" stroke-linejoin="round" transform="rotate(135)"/>
+    <polygon points="0,-24 20,-113 109,-133 89,-89 14,-34" fill="#c4a35a" stroke="#c4a35a" stroke-width="1" stroke-linejoin="round" transform="rotate(180)"/>
+    <polygon points="0,-24 20,-113 109,-133 89,-89 14,-34" fill="#c4a35a" stroke="#c4a35a" stroke-width="1" stroke-linejoin="round" transform="rotate(225)"/>
+    <polygon points="0,-24 20,-113 109,-133 89,-89 14,-34" fill="#c4a35a" stroke="#c4a35a" stroke-width="1" stroke-linejoin="round" transform="rotate(270)"/>
+    <polygon points="0,-24 20,-113 109,-133 89,-89 14,-34" fill="#c4a35a" stroke="#c4a35a" stroke-width="1" stroke-linejoin="round" transform="rotate(315)"/>
+
+    <!-- Inner cutout -->
+    <circle cx="0" cy="0" r="51" fill="#050014"/>
+  </g>
+
+  <!-- Keyhole -->
+  <g transform="translate(250, 238)">
+    <path d="M -20 0 A 14 14 0 1 1 20 0 L 14 14 L 20 31 L -20 31 L -14 14 Z"
+          fill="#050014" stroke="#c4a35a" stroke-width="8" stroke-linejoin="round"/>
+  </g>
+</svg>
